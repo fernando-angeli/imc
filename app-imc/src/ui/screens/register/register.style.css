@@ -1,18 +1,19 @@
+.register__screen {
+  display: flex;
+  max-width: 100vw;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+  margin-top: 100px;
+}
+
 .register-screen__title {
   font-size: 30px;
   color: #2d9cdb;
   font-weight: 500;
   margin-top: 40px;
   margin-bottom: 40px;
-}
-
-.register__screen {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  height: 100vh;
-  margin-top: 100px;
 }
 
 .login__screen_form {
