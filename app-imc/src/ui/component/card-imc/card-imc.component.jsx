@@ -20,7 +20,7 @@ export function CardImc({ ...props }) {
           <label className="label_description">
             <strong>Data: </strong>
           </label>
-          {date}
+          {`${date[2]}/${date[1]}/${date[0]}`}
         </div>
         <div className="infos">
           <label className="label_description">

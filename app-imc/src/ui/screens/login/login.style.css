@@ -1,14 +1,17 @@
 .login__screen {
   display: flex;
+  height: 100vh;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
+  margin-top: 100px;
 }
 
 .login__screen_form {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 40px;
 }
 .form__error_text {
   color: red;

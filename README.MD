@@ -19,7 +19,7 @@ APP - frontend
 ## Executar a aplicação
 
 > Abrir a pasta app-imc no terminal
-> Executar comando npm start
+> Executar comando: npm start
 
 ## Login
 
@@ -36,6 +36,23 @@ APP - frontend
 1. Clicar no link `Cadastrar novo usuário`
 2. Preencher todos os dados de cadastro
 3. Ao terminar o preenchimentos dos dados, o botão `CADASTRAR` será liberado, clicar para finalizar.
+
+## Registrar uma Medição
+
+> Para registrar a primeira ou novas medições de peso e altura
+
+1. Após efetuar login, clicar no botão `MEDIÇÕES`
+2. Informar a data da medição
+3. Informar o peso
+4. Informar a altura
+5. Clicar em `CADASTRAR`
+   Caso usuário não queira cadastrar uma medição, clicar em `VOLTAR HOME`
+
+## Apagar uma Medição
+
+> Para apagar uma medição já cadastrada
+
+1. Clicar no botão `x`, botão vermelho a direita de cada medição
 
 ## Sair do aplicatigo (logout)
 

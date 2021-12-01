@@ -17,3 +17,9 @@
 .btn {
   height: 40px;
 }
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
