@@ -1,0 +1,22 @@
+.login__screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login__screen_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form__error_text {
+  color: red;
+  margin: 25px 0;
+}
+
+.login__screen_btn {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}

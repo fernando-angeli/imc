@@ -1,0 +1,18 @@
+logging:
+  level:
+    org.hibernate.SQL: DEBUG
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+spring:
+  jpa:
+    #generate-ddl: true
+    hibernate:
+      ddl-auto: validate
+  datasource:
+    username: jqctqyfwggylmm
+    password: a1d056eba02df5b1e2254a181744478261bb5577acfbab5343d9a6cdf7d44430
+    url: jdbc:postgresql://ec2-52-201-195-11.compute-1.amazonaws.com:5432/d6honfl8s7lnq4?currentSchema=public
+    driver-class-name: org.postgresql.Driver
+server:
+  port: 8090
+  servlet:
+    context-path: /api-imc

@@ -1,0 +1,24 @@
+.header__comp {
+  height: 50px;
+  width: 100%;
+  background-color: #333333;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px;
+  margin-bottom: 20px;
+  padding-bottom: 20;
+  position: fixed;
+  top: 0px;
+}
+
+.header_title {
+  padding-left: 20px;
+}
+
+.header_btn_sair {
+  color: #fff;
+  background: none;
+  border: none;
+}

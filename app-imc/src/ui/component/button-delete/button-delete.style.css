@@ -1,0 +1,18 @@
+.button-comp-red {
+  border: none;
+  border-radius: 30px;
+  width: 200px;
+  height: 45px;
+  background-color: #2d9cdb;
+  font-weight: 700;
+  font-size: 12px;
+  color: white;
+  margin: 10px 0px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.button-comp-red {
+  background-color: #c40233;
+  width: 30px;
+  height: 30px;
+}

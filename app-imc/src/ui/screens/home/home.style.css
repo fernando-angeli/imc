@@ -1,0 +1,19 @@
+.cards__imc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+  padding-bottom: 5px 0;
+  height: 66vh;
+  overflow: auto;
+}
+
+.register-screen__title {
+  font-size: 25px;
+  padding: 0;
+  margin: 15px;
+}
+
+.btn {
+  height: 40px;
+}

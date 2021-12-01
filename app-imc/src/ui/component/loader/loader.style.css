@@ -1,0 +1,22 @@
+.loader {
+  width: 70px;
+  height: 70px;
+  animation: spinnerAnimation 1.2s steps(12) infinite;
+}
+
+.loader-div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes spinnerAnimation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

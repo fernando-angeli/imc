@@ -1,0 +1,30 @@
+.input {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  margin-bottom: 11px;
+}
+
+.input__input {
+  height: 36px;
+  width: 100%;
+  border: 1px solid rgb(199, 191, 191);
+  border-radius: 4px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  padding: 10px 14px;
+}
+
+.input__input:focus {
+  outline: none;
+  border-color: #2d9cdb;
+}
+
+.input__label {
+  font-size: 12px;
+  line-height: 14.63px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  color: #828282;
+  margin-bottom: 5px;
+}
